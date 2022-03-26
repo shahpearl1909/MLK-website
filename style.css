@@ -1,0 +1,83 @@
+body{
+    margin:0px;
+    padding-top: 800;
+    text-align: center;
+}
+.profile{
+    border-radius: 50%;
+    width: 305px;
+    height: 285px;
+}
+#welcome{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(rgb(40, 228, 218) 0%, rgb(6, 88, 50) 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.parallax-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#name{
+font-size: 60px;
+font-family: 'Inspiration', cursive;
+}
+h2{
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+#bio{
+    font-family:
+    padding: 50px;
+    font-size: 25px;
+    background-color: hsl(133, 26%, 75%);
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 80px;
+    margin: 8px auto;
+}
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer;
+    background-color: rgb(249, 253, 253);
+    width: 100%;
+    color: mediumseagreen;
+}
+.links{
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(196, 70, 112);
+}
+.links:hover{
+    font-size: 26px;
+    text-decoration: underline;
+    color: darkorange;
+}
+a{
+    text-decoration: none;
+}
+#books a{
+    text-decoration: underline !important;
+    color: darkblue !important;
+}
+#contact{
+    background-color:darkkhaki;
+}
+.contact1 h3{
+    display: inline;
+}
+
